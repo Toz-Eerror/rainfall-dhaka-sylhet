@@ -10,8 +10,8 @@ A first data project in Python. I set out to measure rainfall trends in Dhaka an
 5. Do two widely used datasets agree on the answers?
 
 ## Data
-- NASA POWER (MERRA-2), daily `PRECTOTCORR`, mm/day, 1981-2025
-- ERA5 via the Open-Meteo archive API, daily precipitation sum, 1981-2025
+- **NASA POWER** (MERRA-2), daily `PRECTOTCORR`, mm/day, 1981-2025
+- **ERA5** via the Open-Meteo archive API, daily precipitation sum, 1981-2025
 - Locations: Dhaka (23.81 N, 90.41 E) and Sylhet (24.90 N, 91.87 E)
 - Both are modelled, gridded products, not rain-gauge measurements
 
@@ -37,6 +37,7 @@ A first data project in Python. I set out to measure rainfall trends in Dhaka an
 - Linear trend in annual rainfall:
 
 | | NASA POWER | ERA5 |
+|---|---|---|
 | Dhaka | +417 mm/decade (p < 0.001) | -50 mm/decade (p = 0.23) |
 | Sylhet | +862 mm/decade (p < 0.001) | -308 mm/decade (p = 0.004) |
 
@@ -69,4 +70,4 @@ The seasonal pattern is consistent, but the long-term trend depends on which dat
 ## Tools
 Python, Pandas, NumPy, Matplotlib, SciPy, Google Colab. I learned the Python basics from Tim Nelson's "Python for Water Resources" playlist.
 
-Author: Mohammed Shayan Tozeeh, 2nd-year, EWCE, MIST
+*Author: Mohammed Shayan Tozeeh, 2nd-year EWCE student, MIST*
